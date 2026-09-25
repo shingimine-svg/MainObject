@@ -1,0 +1,13 @@
+# Obsidian: 端末ごとに変わる画面状態・キャッシュ
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/plugins/*/backups/
+.obsidian/plugins/omnisearch/*.cache*
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

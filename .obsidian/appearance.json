@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Atom",
+  "accentColor": "#c4cd4c",
+  "showViewHeader": true,
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "neofarm-wide-daily"
+  ]
+}

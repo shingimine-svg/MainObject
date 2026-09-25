@@ -1,0 +1,15 @@
+{
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "archive/",
+    "00-mobile-vault/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01-private/01-Notes",
+  "attachmentFolderPath": "06_Config/Extra",
+  "openBehavior": "file:"
+}

@@ -1,0 +1,10 @@
+{
+  "amazonRegion": "japan",
+  "highlightsFolder": "05-resources/books",
+  "lastSyncMode": "amazon",
+  "hasStartedSync": true,
+  "isLoggedIn": false,
+  "syncOnBoot": false,
+  "downloadBookMetadata": false,
+  "ignoredBooks": []
+}

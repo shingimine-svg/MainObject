@@ -1,0 +1,142 @@
+/* 1st-farm Daily template */
+.markdown-preview-view.first-farm-daily,
+.markdown-source-view.mod-cm6.first-farm-daily {
+  --metadata-display-reading: none;
+  --metadata-display-editing: none;
+  --h1-size: 1.55em;
+  --h2-size: 1.16em;
+  --h3-size: 1em;
+  --first-farm-ink: #242424;
+  --first-farm-paper: #fbf8ef;
+  --first-farm-line: rgba(36, 36, 36, 0.72);
+  --first-farm-soft: rgba(196, 205, 76, 0.16);
+  --first-farm-blue: rgba(79, 156, 166, 0.14);
+  --first-farm-orange: rgba(231, 161, 69, 0.16);
+  --first-farm-green: rgba(99, 164, 92, 0.15);
+}
+
+.markdown-source-view.mod-cm6.first-farm-daily .metadata-container,
+.markdown-preview-view.first-farm-daily .metadata-container,
+.markdown-source-view.mod-cm6.first-farm-daily .metadata-properties,
+.markdown-preview-view.first-farm-daily .metadata-properties {
+  display: none !important;
+}
+
+.workspace-leaf-content[data-type="markdown"] .markdown-source-view.mod-cm6.first-farm-daily .cm-scroller,
+.workspace-leaf-content[data-type="markdown"] .markdown-reading-view .markdown-preview-view.first-farm-daily {
+  padding-inline: 20px;
+}
+
+.markdown-source-view.mod-cm6.first-farm-daily .cm-contentContainer,
+.markdown-source-view.mod-cm6.first-farm-daily .cm-content,
+.markdown-preview-view.first-farm-daily .markdown-preview-sizer {
+  width: min(880px, calc(100vw - 48px));
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.markdown-preview-view.first-farm-daily {
+  color: var(--first-farm-ink);
+}
+
+.markdown-preview-view.first-farm-daily .inline-title {
+  display: none !important;
+}
+
+.markdown-preview-view.first-farm-daily h1 {
+  margin: 10px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--first-farm-line);
+  letter-spacing: 0;
+  font-weight: 800;
+}
+
+.markdown-preview-view.first-farm-daily .callout {
+  margin: 18px 0;
+  padding: 16px 18px;
+  border: 2px solid var(--first-farm-line);
+  border-radius: 18px;
+  background: var(--first-farm-paper);
+  box-shadow: 0 5px 0 rgba(36, 36, 36, 0.18);
+}
+
+.markdown-preview-view.first-farm-daily .callout-title {
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(36, 36, 36, 0.16);
+  color: var(--first-farm-ink);
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.markdown-preview-view.first-farm-daily .callout-content {
+  padding-top: 8px;
+}
+
+.markdown-preview-view.first-farm-daily .callout[data-callout="todo"] {
+  background: linear-gradient(180deg, var(--first-farm-soft), var(--first-farm-paper) 42%);
+}
+
+.markdown-preview-view.first-farm-daily .callout[data-callout="calendar"] {
+  background: linear-gradient(180deg, var(--first-farm-blue), var(--first-farm-paper) 44%);
+}
+
+.markdown-preview-view.first-farm-daily .callout[data-callout="summary"] {
+  background: linear-gradient(180deg, var(--first-farm-orange), var(--first-farm-paper) 44%);
+}
+
+.markdown-preview-view.first-farm-daily .callout[data-callout="tip"] {
+  background: linear-gradient(180deg, var(--first-farm-green), var(--first-farm-paper) 44%);
+}
+
+.markdown-preview-view.first-farm-daily h3 {
+  margin: 14px 0 6px;
+  letter-spacing: 0;
+  font-weight: 800;
+}
+
+.markdown-preview-view.first-farm-daily ul,
+.markdown-preview-view.first-farm-daily ol,
+.markdown-preview-view.first-farm-daily p {
+  margin-block: 0.45em;
+}
+
+.markdown-preview-view.first-farm-daily table {
+  width: 100%;
+  margin-top: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid rgba(36, 36, 36, 0.22);
+  border-radius: 10px;
+  font-size: 0.96em;
+}
+
+.markdown-preview-view.first-farm-daily th,
+.markdown-preview-view.first-farm-daily td {
+  padding: 9px 10px;
+  border-color: rgba(36, 36, 36, 0.16);
+  vertical-align: top;
+}
+
+.markdown-preview-view.first-farm-daily th {
+  background: rgba(36, 36, 36, 0.06);
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .workspace-leaf-content[data-type="markdown"] .markdown-source-view.mod-cm6.first-farm-daily .cm-scroller,
+  .workspace-leaf-content[data-type="markdown"] .markdown-reading-view .markdown-preview-view.first-farm-daily {
+    padding-inline: 12px;
+  }
+
+  .markdown-preview-view.first-farm-daily .markdown-preview-sizer {
+    width: min(100%, calc(100vw - 24px));
+  }
+
+  .markdown-preview-view.first-farm-daily .callout {
+    border-radius: 14px;
+    padding: 13px 14px;
+  }
+}
